@@ -44,3 +44,10 @@ CREATE TABLE Conta_Corrente(
 
 
 DESC Conta_Corrente;
+
+
+ALTER TABLE Cliente MODIFY nome VARCHAR(75);
+
+
+DESC Cliente;
+
