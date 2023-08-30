@@ -97,3 +97,11 @@ UPDATE estado SET sigla = 'TO' WHERE nome = "Tocantins";
 UPDATE estado SET sigla = 'BA' WHERE nome = "Bahia";
 UPDATE estado SET sigla = 'CE' WHERE nome = "Ceara";
 UPDATE estado SET sigla = 'PB' WHERE nome = "Paraiba";
+
+
+INSERT INTO Cidade(nome, estado_id) VALUES
+("Anapolis", 23),
+("Niteroi", 10);
+
+
+SELECT * From Cidade;
