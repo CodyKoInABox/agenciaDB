@@ -64,3 +64,36 @@ INSERT INTO Cidade(nome, estado_id) VALUES
 ("Cuiaba", 20),
 ("Belo Horizonte", 11),
 ("Brasilia", 24);
+
+
+DESC Estado;
+
+
+UPDATE estado SET sigla = 'SP' WHERE nome = "Sao Paulo";
+
+
+SELECT * FROM Estado;
+
+
+UPDATE estado SET sigla = 'RJ' WHERE nome = "Rio de Janeiro";
+UPDATE estado SET sigla = 'SC' WHERE nome = "Santa Catarina";
+UPDATE estado SET sigla = 'PR' WHERE nome = "Parana";
+UPDATE estado SET sigla = 'MG' WHERE nome = "Minas Gerais";
+UPDATE estado SET sigla = 'AM' WHERE nome = "Amazonas";
+UPDATE estado SET sigla = 'RS' WHERE nome = "Rio Grande do Sul";
+UPDATE estado SET sigla = 'PE' WHERE nome = "Pernambuco";
+UPDATE estado SET sigla = 'MT' WHERE nome = "Mato Grosso";
+UPDATE estado SET sigla = 'MS' WHERE nome = "Mato Grosso do Sul";
+UPDATE estado SET sigla = 'ES' WHERE nome = "Espirito Santo";
+UPDATE estado SET sigla = 'GO' WHERE nome = "Goias";
+UPDATE estado SET sigla = 'DF' WHERE nome = "Distrito Federal";
+UPDATE estado SET sigla = 'PI' WHERE nome = "Piaui";
+UPDATE estado SET sigla = 'AC' WHERE nome = "Acre";
+UPDATE estado SET sigla = 'RO' WHERE nome = "Rondonia";
+UPDATE estado SET sigla = 'RR' WHERE nome = "Roraima";
+UPDATE estado SET sigla = 'AP' WHERE nome = "Amapa";
+UPDATE estado SET sigla = 'PA' WHERE nome = "Para";
+UPDATE estado SET sigla = 'TO' WHERE nome = "Tocantins";
+UPDATE estado SET sigla = 'BA' WHERE nome = "Bahia";
+UPDATE estado SET sigla = 'CE' WHERE nome = "Ceara";
+UPDATE estado SET sigla = 'PB' WHERE nome = "Paraiba";
