@@ -53,3 +53,14 @@ INSERT INTO Cidade(nome, estado_id) VALUES
 
 
 SELECT * FROM Cidade;
+
+
+SELECT estado.nome FROM estado WHERE estado.id = 10;
+
+
+INSERT INTO Cidade(nome, estado_id) VALUES
+("Manaus", 17),
+("Rio Branco", 26),
+("Cuiaba", 20),
+("Belo Horizonte", 11),
+("Brasilia", 24);
