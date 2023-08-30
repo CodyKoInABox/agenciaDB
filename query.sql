@@ -51,3 +51,24 @@ ALTER TABLE Cliente MODIFY nome VARCHAR(75);
 
 DESC Cliente;
 
+
+ALTER TABLE Cidade DROP uf;
+
+
+DESC Cidade;
+
+
+CREATE TABLE Estado(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(30),
+    sigla CHAR(2)
+);
+
+
+ALTER TABLE Cidade ADD estado_id INT;
+
+
+ALTER TABLE Cidade ADD FOREIGN KEY(estado_ID) REFERENCES Estado(ID);
+
+
+DESC Cidade;
