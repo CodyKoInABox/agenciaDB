@@ -105,3 +105,42 @@ INSERT INTO Cidade(nome, estado_id) VALUES
 
 
 SELECT * From Cidade;
+
+
+DESC Cliente;
+
+
+INSERT INTO Cliente(nome, cpf, cidade_id) VALUES
+("Marco Antonio", 68176049852, 4),
+("Gabriel Barbosa", 12371865391, 2),
+("Bruno Silva", 91803649183, 4),
+("Guilherme Santos", 54832297645, 9),
+("Jose Roberto", 87260497621, 11);
+
+
+SELECT * FROM Cliente;
+
+
+DESC Agencia;
+
+
+INSERT INTO Agencia(codigo, cidade_id) VALUES
+("1234", 4),
+("1234", 9),
+("1234", 2);
+
+
+SELECT * FROM Agencia;
+
+
+DESC Conta_Corrente;
+
+
+INSERT INTO Conta_corrente(numero, agencia_id, cliente_id, saldo) VALUES
+(953487521, 1, 1, 1920.80),
+(134761257, 1, 6, 45952.15),
+(867345197, 2, 5, 32000.98),
+(101342579, 3, 3, 5782.00);
+
+
+SELECT * FROM Conta_corrente;
